@@ -4,6 +4,8 @@ v0.1, not yet validated, feedback invited.
 
 This is a draft protocol, not a validated measure. It is not a claim of originality. Do not use the priority as a probability, a welfare score, or proof that a product is safe.
 
+Licensed under the [MIT License](LICENSE). That is permission to copy and adapt this draft. It is not a validation.
+
 The question for one product and one person:
 
 Who benefits, who bears the costs, through which systems, compared with what alternative — and what must change?
