@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Dignitas Protocol",
+      "hasCanvas": false,
+      "bodyTextLen": 4575,
+      "bodyTextHash": "2af837e36bd2ae7d07fc55c7597ecbed029d7ad350ffd7dd6448c297bc0e6d9c",
+      "bodyTextPrefix": "PROTOCOL V1.0 Dignitas Score how a technology bears on one perso",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Dignitas Protocol",
+      "hasCanvas": false,
+      "bodyTextLen": 4575,
+      "bodyTextHash": "2af837e36bd2ae7d07fc55c7597ecbed029d7ad350ffd7dd6448c297bc0e6d9c",
+      "bodyTextPrefix": "PROTOCOL V1.0 Dignitas Score how a technology bears on one perso",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

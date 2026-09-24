@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f3efe6;
+  --color-ink: #1c1915;
+  --color-muted: #5c564e;
+  --color-surface: #fffdf8;
+  --color-line: #e3d9cb;
+  --color-leaf: #1e6b45;
+  --color-leaf-soft: #e7f2eb;
+  --color-oxide: #8f3d32;
+  --color-oxide-soft: #f8ece8;
+  --color-on-ink: #f3efe6;
+  --color-on-ink-muted: #d4cdc2;
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --shadow-border:
+    0px 0px 0px 1px rgba(28, 25, 21, 0.07),
+    0px 1px 2px -1px rgba(28, 25, 21, 0.06),
+    0px 8px 20px -12px rgba(28, 25, 21, 0.18);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--color-leaf-soft);
+    color: var(--color-ink);
+  }
+}
+
+.panel {
+  background: var(--color-surface);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-border);
+}
+
+.raised {
+  background: var(--color-surface);
+  box-shadow: var(--shadow-border);
+}
+
+.field {
+  width: 100%;
+  min-height: 2.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  padding: 0.55rem 0.75rem;
+  color: var(--color-ink);
+}
+
+textarea.field {
+  min-height: 5.5rem;
+  resize: vertical;
+}
+
+.field:focus-visible,
+.chip:focus-visible,
+.choice:focus-visible,
+.view-tab:focus-visible {
+  outline: 2px solid var(--color-leaf);
+  outline-offset: 2px;
+}
+
+progress.good {
+  accent-color: var(--color-leaf);
+}
+
+progress.harm {
+  accent-color: var(--color-oxide);
+}
+
+progress {
+  height: 0.35rem;
+  width: 100%;
+  appearance: none;
+  border: none;
+  background: var(--color-line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background: var(--color-line);
+}
+
+progress::-webkit-progress-value {
+  background: var(--color-leaf);
+}
+
+progress.harm::-webkit-progress-value {
+  background: var(--color-oxide);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  header,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  .panel {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,83 @@
+Yes. Your social work, research, and statistics background fits this well: you can connect technology’s measurable performance with what it actually changes in a person’s life—and trace those effects through families, institutions, and society.
+
+I’ve drafted a Person-Centered Technology Impact Protocol, including a scoring rubric, two worked examples, and a validation plan.
+
+Person_Centered_Technology_Impact_Protocol_v0.1.md⁠￼
+
+The central question is:
+
+“Who benefits, who bears the costs, through which systems, compared with what alternative—and what must change?”
+
+The address you supplied provides the ethical foundation: dignity, responsibility, scientific opportunity, solidarity, and attention to those bearing the greatest consequences. Your research contribution would be translating those commitments into observable outcomes and accountable decisions.
+
+1. Put the person at the center, then trace the pathways
+
+Companies would assess a specific product or deployment—not “technology” in general.
+
+Level	What the evaluation examines
+Person	Agency, safety, health, learning, accessibility, and basic needs
+Micro	Everyday relationships: family, peers, teachers, caregivers
+Meso	Connections between settings—for example, how family and school coordinate support
+Exo	Decisions affecting the person indirectly: platform policies, utility planning, procurement
+Macro	Inequality, institutions, resource distribution, scientific progress, surveillance, and warfare risks
+Time	Immediate, cumulative, delayed, and intergenerational effects
+
+For instance, the pathway might be: a facility increases peak electricity demand → infrastructure costs change → household bills rise → a low-income household has less money for essential needs. Each link needs evidence; the protocol would not assume the whole chain occurred.
+
+2. Evaluate six domains
+
+Across those systems, assess both opportunities and threats to:
+
+* Agency, rights, and access.
+* Health, safety, and development.
+* Relationships and participation.
+* Material security, including food, water, and energy.
+* Environment, institutions, and peace.
+* Knowledge, discovery, and creativity.
+
+This gives scientific breakthroughs a place alongside risks. However, a promised breakthrough needs a credible pathway to human benefit: who will gain access, when, and at what cost?
+
+Existing frameworks already cover parts of this territory. NIST considers individual and societal impacts; UNESCO explicitly incorporates dignity and environmental sustainability. Your potential contribution is making the ecological pathways, distribution of effects, and affected people’s own priorities operational. It would need a literature review before claiming originality. 
+
+3. Give impacts numbers—but keep benefits and harms separate
+
+For an initial prototype, each impact receives:
+
+Input	Proposed rating
+Magnitude	0–4: negligible through major or transformative benefit; negligible through severe harm
+Likelihood	1–4: unlikely through very likely within a stated timeframe
+Evidence	Reported separately, including missing evidence and uncertainty
+Distribution	Which group experiences the effect, and how many people are exposed
+
+A simple provisional calculation is:
+
+Impact priority = 100 × (magnitude × likelihood) ÷ 16
+
+This produces a 0–100 priority score, not a percentage probability or a validated measure of human welfare. Unknown inputs remain unknown.
+
+An entirely hypothetical assessment might show:
+
+Impact	Magnitude	Likelihood	Priority
+Greater independence in self-chosen tasks for autistic youth	3	3	Benefit: 56
+Sleep disruption from the same product’s notifications	2	3	Harm: 38
+Increased household energy burden near a data center	3	3	Harm: 56
+
+I would not subtract harm from benefit to create one “good technology” number. Doing so could conceal serious harm to a small group beneath widespread modest benefits.
+
+Instead, the company receives a profile: benefits, harms, affected groups, evidence gaps, and required action. Credible severe threats to basic needs or rights trigger independent review regardless of the overall benefits.
+
+4. Make affected people part of the measurement
+
+For autistic young people, success should include their own goals, communication preferences, agency, and experiences. More time using a product—or appearing more neurotypical—is not inherently an improvement. Caregiver observations can contribute without replacing the young person’s account. UNICEF’s guidance provides a relevant foundation for this module. 
+
+For households near a data center, measure actual outcomes: utility spending relative to income, interruptions, water conditions, and which residents receive lasting employment benefits.
+
+5. Build credibility through a focused pilot
+
+Start with one application: a specific AI tool used by autistic young people, where your background is especially relevant.
+
+First, co-design the indicators and rating anchors. Then have independent reviewers assess the same cases, examine agreement, and test whether the assessments anticipate subsequent outcomes. A small pilot can refine the tool; it cannot establish broad validity.
+
+GitHub would hold the protocol, scoring code, synthetic examples, version history, and appropriately aggregated findings. Sensitive participant records belong in a secure research system.
+
+The draft’s company-facing output is practical: what helps, what harms, who is affected, how certain we are, and who must act by when. It is ready for methodological refinement; it has not yet been validated or published to GitHub.
