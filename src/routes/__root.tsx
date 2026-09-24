@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Dignitas Protocol";
+const APP_NAME = "Person-Centered Impact Protocol";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Score how a technology bears on one person — benefits, opportunities, costs, and threats — across the systems that hold them.",
+          "A simple profile of who benefits and who bears the cost. Benefits and harms are not combined.",
       },
       { name: "theme-color", content: "#1c1915" },
     ],
